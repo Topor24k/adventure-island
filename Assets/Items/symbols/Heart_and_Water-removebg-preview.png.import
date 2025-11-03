@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c06s7cb070akc"
-path="res://.godot/imported/Randoms.jpg-8f1250fb9977d1d20d31279dadb18412.ctex"
+uid="uid://56uqf1i8ym4w"
+path="res://.godot/imported/Heart_and_Water-removebg-preview.png-475e8e668d80c672cabe8541e00b99d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Items/symbols/Randoms.jpg"
-dest_files=["res://.godot/imported/Randoms.jpg-8f1250fb9977d1d20d31279dadb18412.ctex"]
+source_file="res://Assets/Items/symbols/Heart_and_Water-removebg-preview.png"
+dest_files=["res://.godot/imported/Heart_and_Water-removebg-preview.png-475e8e668d80c672cabe8541e00b99d2.ctex"]
 
 [params]
 

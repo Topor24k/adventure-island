@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://bnpkj1nvomocj"]
+
+[ext_resource type="Texture2D" uid="uid://56uqf1i8ym4w" path="res://Assets/Items/symbols/Heart_and_Water-removebg-preview.png" id="1_tbxmo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wo8bj"]
+atlas = ExtResource("1_tbxmo")
+region = Rect2(280, 25, 280, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mydjc"]
+atlas = ExtResource("1_tbxmo")
+region = Rect2(280, 102, 280, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frj1s"]
+atlas = ExtResource("1_tbxmo")
+region = Rect2(280, 179, 280, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwmno"]
+atlas = ExtResource("1_tbxmo")
+region = Rect2(280, 256, 280, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_et08l"]
+atlas = ExtResource("1_tbxmo")
+region = Rect2(280, 333, 280, 77)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4vvfc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wo8bj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mydjc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frj1s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xwmno")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_et08l")
+}],
+"loop": true,
+"name": &"Energy",
+"speed": 5.0
+}]
+
+[node name="energy_bar" type="CanvasLayer"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(99, 81)
+scale = Vector2(0.555, 0.555)
+sprite_frames = SubResource("SpriteFrames_4vvfc")
+animation = &"Energy"
